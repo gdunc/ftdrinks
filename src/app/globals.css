@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #faf6f1;
+  --color-espresso: #2c1810;
+  --color-roast: #6b3a2a;
+  --color-caramel: #c68b59;
+  --color-leaf: #4a7c59;
+  --color-leaf-dark: #3a6347;
+  --color-warm-gray: #f5f0eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--color-espresso);
+  background: var(--color-cream);
+}
